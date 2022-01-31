@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5B39E092781A2F1001C0959 /* son_bateau.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5B39E062781A2F1001C0959 /* son_bateau.wav */; };
+		E5B39E0A2781A2F1001C0959 /* son_carotte.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5B39E072781A2F1001C0959 /* son_carotte.wav */; };
+		E5B39E0B2781A2F1001C0959 /* son_maison.wav in Resources */ = {isa = PBXBuildFile; fileRef = E5B39E082781A2F1001C0959 /* son_maison.wav */; };
+		E5B39E0D2781AC3B001C0959 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B39E0C2781AC3B001C0959 /* AppIcon.png */; };
 		E5CC982727810D9200AF67E2 /* BienLireAvecDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC982627810D9200AF67E2 /* BienLireAvecDataApp.swift */; };
 		E5CC982927810D9200AF67E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC982827810D9200AF67E2 /* ContentView.swift */; };
 		E5CC982B27810D9600AF67E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5CC982A27810D9600AF67E2 /* Assets.xcassets */; };
 		E5CC982E27810D9600AF67E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5CC982D27810D9600AF67E2 /* Preview Assets.xcassets */; };
+		E5CC98352781152300AF67E2 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC98342781152300AF67E2 /* ItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5B39E062781A2F1001C0959 /* son_bateau.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = son_bateau.wav; sourceTree = "<group>"; };
+		E5B39E072781A2F1001C0959 /* son_carotte.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = son_carotte.wav; sourceTree = "<group>"; };
+		E5B39E082781A2F1001C0959 /* son_maison.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = son_maison.wav; sourceTree = "<group>"; };
+		E5B39E0C2781AC3B001C0959 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 		E5CC982327810D9200AF67E2 /* BienLireAvecData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BienLireAvecData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CC982627810D9200AF67E2 /* BienLireAvecDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienLireAvecDataApp.swift; sourceTree = "<group>"; };
 		E5CC982827810D9200AF67E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5CC982A27810D9600AF67E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5CC982D27810D9600AF67E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5CC98342781152300AF67E2 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +42,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5B39DF127819F07001C0959 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				E5B39E062781A2F1001C0959 /* son_bateau.wav */,
+				E5B39E072781A2F1001C0959 /* son_carotte.wav */,
+				E5B39E082781A2F1001C0959 /* son_maison.wav */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
 		E5CC981A27810D9200AF67E2 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +73,10 @@
 			children = (
 				E5CC982627810D9200AF67E2 /* BienLireAvecDataApp.swift */,
 				E5CC982827810D9200AF67E2 /* ContentView.swift */,
+				E5CC98342781152300AF67E2 /* ItemModel.swift */,
+				E5B39DF127819F07001C0959 /* Ressources */,
 				E5CC982A27810D9600AF67E2 /* Assets.xcassets */,
+				E5B39E0C2781AC3B001C0959 /* AppIcon.png */,
 				E5CC982C27810D9600AF67E2 /* Preview Content */,
 			);
 			path = BienLireAvecData;
@@ -125,7 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B39E0A2781A2F1001C0959 /* son_carotte.wav in Resources */,
 				E5CC982E27810D9600AF67E2 /* Preview Assets.xcassets in Resources */,
+				E5B39E0D2781AC3B001C0959 /* AppIcon.png in Resources */,
+				E5B39E0B2781A2F1001C0959 /* son_maison.wav in Resources */,
+				E5B39E092781A2F1001C0959 /* son_bateau.wav in Resources */,
 				E5CC982B27810D9600AF67E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5CC98352781152300AF67E2 /* ItemModel.swift in Sources */,
 				E5CC982927810D9200AF67E2 /* ContentView.swift in Sources */,
 				E5CC982727810D9200AF67E2 /* BienLireAvecDataApp.swift in Sources */,
 			);
@@ -269,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BienLireAvecData/Preview Content\"";
+				DEVELOPMENT_TEAM = 37LAT7BQDF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,6 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BienLireAvecData/Preview Content\"";
+				DEVELOPMENT_TEAM = 37LAT7BQDF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
