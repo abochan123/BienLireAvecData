@@ -46,7 +46,7 @@ struct ContentView: View {
         Label: do {
             Text(text2)
                 .bold()
-                .font(.largeTitle)
+                .font(.system(size: 50))
         
                 .frame(width: 200, height: 200, alignment: .center)
         }
@@ -78,7 +78,7 @@ struct ContentView: View {
             .foregroundColor(Color.black)
             .frame(width: 200, height: 200)
             .cornerRadius(70.0)
-            .font(.largeTitle)
+            .font(.system(size: 100))
             
             HStack{
             Button("⬅️") {
@@ -93,8 +93,7 @@ struct ContentView: View {
                 
                 self.text2 = items[currentNum].lemot
             }
-            .font(.largeTitle)
-            //.frame(width: 300, height: 1, alignment: .bottomLeading)
+            .font(.system(size: 50))
             .frame(alignment: .bottomLeading)
         
             Button("➡️") {
@@ -109,8 +108,7 @@ struct ContentView: View {
                 
                 self.text2 = items[currentNum].lemot
             }
-            .font(.largeTitle)
-            //.frame(width: 300, height: 1, alignment: .bottomLeading)
+            .font(.system(size: 50))
             .frame(alignment: .topLeading)
             
         }
